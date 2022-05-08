@@ -1,8 +1,7 @@
 # Unity-Game-Project-Ship-Destroyer-
 A project made in Unity for Game development 
 
-The game I am making is called ‘Ship Destroyer’. 
-The game is about controlling a ship (this will be the player object), with ‘W’, ‘A’ and ‘D’ keys. There is no ‘S’ key because it is not allowed to go back.
+This game is about controlling a ship, with ‘W’, ‘A’ and ‘D’ keys. There is no ‘S’ key because it is not allowed to go back.
 The ship can shoot cannon balls (prefabs) using the Spacebar key. 
 There is a 1.5-second delay between firing successive cannon balls, so that you cannot just spam the spacebar as it would make the game too easy.
 There will be enemy ships (prefabs) that keep spawning in front of the player ship.

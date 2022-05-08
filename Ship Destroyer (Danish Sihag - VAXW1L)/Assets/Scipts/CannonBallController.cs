@@ -14,7 +14,7 @@ public class CannonBallController : MonoBehaviour
     }
     public void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("EnemyShip1"))
+        if (other.gameObject.CompareTag("EnemyShip1") || other.gameObject.CompareTag("EnemyShip2"))
         {
 
             Destroy(other.gameObject);                      //Ships destroyed
@@ -24,18 +24,5 @@ public class CannonBallController : MonoBehaviour
             AudioController.IsCannonColliding = true;    //method called from AudioController script.
 
         }
-
-        if (other.gameObject.CompareTag("EnemyShip2"))
-        {
-
-            Destroy(other.gameObject);                      //Ships destroyed
-            Destroy(gameObject);                           //Cannon destroyed on impact
-
-            PointsCollector.IsPointReduced = true;      // method called from PointsCollector script.
-            AudioController.IsCannonColliding = true;    //method called from AudioController script.
-
-        }
-        Destroy(gameObject, 3);       // automatic destruction of cannon ball after 3 seconds if it doesnt hit.
-
     }
 }

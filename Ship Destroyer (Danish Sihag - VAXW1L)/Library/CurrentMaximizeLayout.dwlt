@@ -25,7 +25,7 @@ MonoBehaviour:
   m_MinSize: {x: 709, y: 492}
   m_MaxSize: {x: 18004, y: 14042}
   vertical: 0
-  controlID: 1146
+  controlID: 271
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -139,7 +139,7 @@ MonoBehaviour:
   m_MinSize: {x: 201, y: 442}
   m_MaxSize: {x: 4001, y: 8042}
   vertical: 1
-  controlID: 1121
+  controlID: 272
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -394,7 +394,7 @@ MonoBehaviour:
   m_MinSize: {x: 232, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 1078
+  controlID: 230
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -547,13 +547,14 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Scipts
   m_LastFoldersGridSize: 44
-  m_LastProjectPath: C:\Users\sihag\Ship Destroyer (Danish Sihag - VAXW1L)
+  m_LastProjectPath: C:\Users\sihag\Documents\GitHub\Unity-Game-Project-Ship-Destroyer-\Ship
+    Destroyer (Danish Sihag - VAXW1L)
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: fa440000
-    m_LastClickedID: 17658
+    m_SelectedIDs: fe440000
+    m_LastClickedID: 17662
     m_ExpandedIDs: 0000000096440000984400009a4400009c4400009e440000a0440000a2440000a4440000a6440000a8440000aa440000ac440000ae440000b0440000b2440000b444000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -607,9 +608,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 66070000
-    m_LastClickedInstanceID: 1894
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs: a8090000
+    m_LastClickedInstanceID: 2472
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000b45d0000e4430000b643000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -695,7 +696,7 @@ MonoBehaviour:
     m_CachedPref: -177
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: 1894
+  m_LastInspectedObjectInstanceID: 2472
   m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_LockTracker:
